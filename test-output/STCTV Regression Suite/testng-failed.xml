@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [STCTV Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.EmiratesTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="VerEmiratesSub"/>
+        </methods>
+      </class> <!-- tests.EmiratesTest -->
+      <class name="tests.EgyptTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closeDriver"/>
+          <include name="VerEgySub"/>
+        </methods>
+      </class> <!-- tests.EgyptTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [STCTV Regression Suite] -->
