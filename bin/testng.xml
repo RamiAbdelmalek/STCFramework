@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="STCTV Regression Suite">
+  <test name="Regression Test">
+    <classes>
+      <class name="tests.EgyptTest"/>
+      <class name="tests.EmiratesTest"/>
+      <class name="tests.JordanTest"/>
+    </classes>
+  </test> 
+</suite> 
